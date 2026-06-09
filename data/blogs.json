@@ -1,0 +1,17 @@
+{
+  "_info": "Blog metadata is sourced from frontmatter in content/blogs/*.md files. Drop a new .md file in that folder to publish a new post automatically.",
+  "frontmatterSchema": {
+    "title": "string — post title shown in listing and article header",
+    "description": "string — short summary shown on blog listing cards (100–160 chars recommended)",
+    "date": "string — ISO date format, e.g. '2026-06-08'",
+    "tags": "string[] — topic tags, e.g. ['nestjs', 'typescript']",
+    "readTime": "string (optional) — e.g. '3 min read'"
+  },
+  "example": {
+    "title": "My New Blog Post",
+    "description": "A short description of what this post covers and why it matters.",
+    "date": "2026-06-08",
+    "tags": ["topic", "subtopic"],
+    "readTime": "3 min read"
+  }
+}

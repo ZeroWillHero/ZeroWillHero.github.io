@@ -1,0 +1,26 @@
+{
+  "_info": "Project metadata is sourced from frontmatter in content/projects/*.md files. Drop a new .md file there to publish a new project. Place cover/screenshot images in public/projects/<slug>/",
+  "frontmatterSchema": {
+    "title": "string — project name",
+    "description": "string — short summary for cards (≤150 chars)",
+    "tech": "string[] — e.g. ['NestJS', 'TypeScript', 'PostgreSQL']",
+    "github": "string (optional) — GitHub repo URL",
+    "live": "string (optional) — live demo URL",
+    "cover": "string (optional) — e.g. '/projects/my-project/cover.png'",
+    "images": "string[] (optional) — screenshot paths for gallery",
+    "date": "string — ISO date e.g. '2026-06-01'",
+    "featured": "boolean — show on homepage projects section",
+    "status": "'completed' | 'in-progress'"
+  },
+  "techIconMap": {
+    "React": "/react.png",
+    "Next.js": "/react.png",
+    "NestJS": "/nest.png",
+    "Flutter": "/flutter.png",
+    "Android": "/android.png",
+    "Kotlin": "/kt.png",
+    "TypeScript": "/ts.png",
+    "Spring Boot": "/spring.png",
+    "Spring": "/spring.png"
+  }
+}
